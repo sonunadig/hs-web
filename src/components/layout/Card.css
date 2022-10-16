@@ -1,0 +1,20 @@
+.hs-card {
+    flex: 1;
+    font-size: 1.3rem;
+    margin: 3rem 1rem;
+    padding: 2rem;
+
+    border-style: solid;
+    border-width: qpx;
+    border-color: #E4E4E4;
+    border-radius: 10px;
+}
+
+.hs-card img {
+    height: 3.3rem;
+    margin-bottom: 1rem;
+}
+
+.hs-card p {
+    margin-bottom: 0;
+}

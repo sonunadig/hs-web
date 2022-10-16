@@ -1,0 +1,74 @@
+/* Header Section */
+
+.header-section {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(236,28,36,1) 0%, rgb(58, 0, 0) 100%);
+    color: #fff;
+}
+
+.header-bg {
+    display: flex;
+    background: url("../../assets/Asset-17.1.png");
+    background-size:100%;
+    background-position:bottom center;
+    background-repeat: no-repeat;
+}
+
+.header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.header-image img {
+    width: 100%;
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem;
+}
+
+.header-content h1 {
+    font-size: 40px;
+    margin: 0.5rem 0rem;
+}
+
+.header-content h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.header-content p {
+    font-family: var(--body-text);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2rem;
+    padding-right: 1em;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Solution Section */
+
+.sol-bg {
+    background: url("../../assets/Asset-16.1.png");
+    background-size: 100%;
+    background-position:top center;
+    background-repeat: no-repeat;
+}
+
+.sol-heading {
+    text-align: center;
+}
+
+.sol-cards {
+    display: flex;
+}
